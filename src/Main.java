@@ -1,7 +1,9 @@
 import java.awt.*;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.lang.reflect.Array;
+
 
 public class Main {
 
@@ -94,6 +96,26 @@ public class Main {
 //
 //        System.out.println("Thanks for using this program!");
 
-        
+//        double power = Math.pow(5, 3);
+//        double squareRoot = Math.sqrt(65);
+//
+//        Random rand = new Random();
+//        int randomNumber = rand.nextInt();
+//        int randomNumberWithBound = rand.nextInt(10);
+//
+//
+//        System.out.println(randomNumber);
+//        System.out.println(randomNumberWithBound);
+
+//        Coin c = new Coin();
+//        System.out.println("Initial: " + c.getFaceUp());
+//
+//        for(int i = 0; i < 10; i++) {
+//            c.flip();
+//            System.out.println("After: " + c.getFaceUp());
+//        }
+
+        Dice d = new Dice();
+        d.init();
     }
 }
